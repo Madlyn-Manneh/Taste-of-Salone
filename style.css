@@ -1,0 +1,166 @@
+body {
+  padding: 0;
+  margin: 0;
+  max-width: 100%;
+  background: radial-gradient(
+    621px at 25.3% 13.8%,
+    rgb(255, 255, 255) 0%,
+    rgb(234, 236, 255) 90%
+  );
+}
+/* Styling for the header*/
+header {
+  height: 350px;
+  max-width: 100%;
+  background-image: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/099/860/original/Cassava-Leaf-Stew-10.jpg?1696969558");
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+  background-size: cover;
+  opacity: 0.9;
+}
+header h1 {
+  text-align: center;
+  margin: 0 auto;
+  padding-top: 9%;
+  font-size: 120px;
+  color: #2cbf48;
+}
+#span1 {
+  color: white;
+}
+#span2 {
+  color: blue;
+}
+
+/*Styling for Main page content*/
+.page-wrapper {
+  margin: auto;
+  height: 50%;
+  display: flex;
+  flex-direction: column;
+}
+.about {
+  flex: 1;
+}
+.about h2,
+.heading2 {
+  text-align: center;
+  font: 3em sans-serif;
+  padding: 0;
+  margin: 0 auto;
+  color: #2cbf48;
+}
+.about p {
+  text-align: justify;
+  font-size: 16px;
+  line-height: 1.5;
+}
+.about img {
+  border: 1px solid #2cbf48;
+  border-radius: 10px;
+}
+.about img,
+.image {
+  max-width: 100%;
+  height: 200px;
+  width: 400px;
+}
+.recipies,
+.recipies1 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.recipe-box,
+.Sierraleone {
+  width: 23%;
+  margin: 10px;
+  text-align: center;
+}
+
+.image-caption {
+  margin-top: 10px;
+}
+/*Styling for Footer*/
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #36ddac;
+  color: #fff;
+  padding: 20px 20px 0 20px;
+  height: 250px;
+}
+.flag {
+  max-width: 100%;
+  height: 100px;
+  width: 250px;
+  border-radius: 4px;
+}
+.flag-caption p {
+  margin: 0 auto;
+  font-size: 13px;
+  line-height: 1.5;
+}
+.flag-caption a {
+  display: block;
+  color: black;
+  text-decoration: none;
+  margin-top: 10px;
+  font-size: 12px;
+  transition: all 200ms ease-in-out;
+}
+.flag-caption a:hover,
+.social a:hover {
+  color: #0897ff;
+}
+.social {
+  text-align: center;
+}
+.social ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.social li {
+  margin: 10px 0;
+  line-height: 1.5;
+}
+.social a {
+  text-decoration: none;
+  color: #fff;
+  transition: all 200ms ease-in-out;
+}
+.footer-content {
+  text-align: right;
+}
+button {
+  display: block;
+  margin: 20px auto;
+  background-color: #0897ff;
+  color: white;
+  padding: 15px 20px;
+  border: none;
+  font-size: 18px;
+  border-radius: 8px;
+  box-shadow: 5px 5px 10px rgb(0, 0, 0, 0.3);
+  transition: all 200ms ease-in-out;
+}
+button:hover {
+  cursor: pointer;
+  border: 1px solid #0897ff;
+  background-color: white;
+  color: #0897ff;
+}
+/*Styling for author's name*/
+.author {
+  background: #36ddac;
+  padding: 5px;
+  text-align: center;
+  color: black;
+  height: fit-content;
+  position: relative;
+  margin: 0;
+  max-width: 100%;
+}
